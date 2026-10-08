@@ -1,0 +1,63 @@
+---
+title: "Solar monitoring and surplus mining: finding the right setup"
+description: "A practical way to think about energy data, compatible hardware and revenue estimates before adding mining to your solar system."
+date: "2026-06-24"
+updated: "2026-10-03"
+author: "SolarMiner Team"
+---
+
+If you already monitor your home energy, you may have the beginnings of a useful solar dataset. Adding mining introduces another layer: compatible hardware, a pool, power control and a separate set of costs.
+
+SolarMiner brings energy monitoring and control of compatible mining devices into one application. It runs on your own host. That can suit a focused solar-and-mining use case, but the choice starts with your actual devices and goals.
+
+## Start with the data you need
+
+Solar generation is only one part of the picture. Household consumption, import, export and battery operation affect how much surplus is available at a particular moment.
+
+Check whether your equipment provides the required measurements through an interface that your chosen adapter can read. Manufacturer names alone are not enough. Model, firmware and enabled access matter.
+
+The [hardware directory](/en/supported-inverters) lists recorded devices and interfaces. A listing is not a guarantee of a tested adapter for every model variant.
+
+## Keep power and energy separate
+
+**kW** measures power at a moment in time. **kWh** measures an amount of energy over a period. A brief power reading cannot establish how much energy a miner will consume over a month.
+
+When evaluating a setup, look at real measurements over time. Solar surplus changes with weather, household use and battery operation. Device limits and delayed measurements also affect control.
+
+## Mining hardware is an additional requirement
+
+Software alone does not turn electricity into Bitcoin. You need compatible mining hardware, pool access and suitable energy measurements.
+
+Heat, noise, space and the suitability of your installation are part of that setup. Check device documentation and control capabilities before connecting a miner. A software description cannot guarantee immediate response or completely eliminate grid consumption.
+
+## Compare revenue before comparing profit
+
+The [Bitcoin calculator](/en/pv-mining-calculator) compares estimated mining revenue per kWh with an effective feed-in tariff. It uses Bitcoin price, difficulty, block reward and miner efficiency.
+
+The calculation includes a **2.5% developer fee** as the existing display assumption. Check the actual node configuration separately. Hardware, hosting, maintenance, pool and miner software fees and grid electricity are not deducted.
+
+If mining exceeds the feed-in tariff in that model, the difference is still not your total profit. Actual surplus operating hours and the cost of additional hardware remain part of your own evaluation.
+
+## Use scenarios to understand dependencies
+
+You can change the price, efficiency and feed-in assumptions in the calculator. Its chart varies Bitcoin price while keeping difficulty, efficiency and the tariff fixed.
+
+That is a scenario, not a prediction. Those other factors can change too. If market data is unavailable, the calculator shows an unavailable state instead of quietly using historical fallback values.
+
+## Read benchmarks in context
+
+[Public benchmarks](/en/benchmarks) can help you understand observed hashrate and power consumption. Compare the same algorithm and data source, and check the number of samples.
+
+SolarMiner observations and external reference measurements remain separate. Manufacturer TDP is reference information, not measured mining power. A result for another device or configuration does not guarantee your own outcome.
+
+## Your existing smart-home setup
+
+If you already use Home Assistant or another monitoring system, list the workflows you need before evaluating a change. For SolarMiner, check the documented energy interfaces, supported miner controls and hosting requirements.
+
+The [SolarMiner and Home Assistant page](/en/home-assistant-alternative) frames this as a use-case decision. Current setup information belongs in the [official documentation](https://docs.solarminer.app/setup).
+
+## A clearer starting point
+
+Begin with the hardware directory, test your own assumptions in the calculator and review the setup guide. Follow real energy measurements once the system is configured.
+
+The useful outcome is a transparent view of your options. No tool description or momentary price comparison can promise a specific financial result.
