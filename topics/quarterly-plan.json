@@ -1,0 +1,37 @@
+{
+  "purpose": "Quarterly long-form research posts. The quarterly research cron picks the FIRST unfinished topic, researches it, writes DE+EN posts, and records completion in its own state. Humans may edit this file anytime: add topics at the end, reorder, or remove.",
+  "topics": [
+    {
+      "id": "q4-2026-volleinspeisung",
+      "quarter": "2026-Q4",
+      "title_de": "Volleinspeisung ab 2027: Was ändert sich für PV-Überschuss-Nutzer?",
+      "title_en": "Full feed-in from 2027: What changes for solar surplus users?",
+      "angle": "Ende der 60%-Deckelung / Volleinspeisung und der Wegfall negativer Strompreise: Wie verschiebt sich der Vergleich Einspeisen vs. Mining? Verlinke auf pv-ueberschuss-mining-2027.",
+      "status": "open"
+    },
+    {
+      "id": "q1-2027-miner-als-heizung",
+      "quarter": "2027-Q1",
+      "title_de": "Miner als Heizung: Ersetzt ein Antminer die Wärmepumpe?",
+      "title_en": "The miner as a heater: Can an ASIC replace a heat pump?",
+      "angle": "Ehrlicher physikalischer Vergleich kWh->Wärme vs. COP einer Wärmepumpe, Heizleistung je Anlagegröße, Lärm, Aufstellung, wann Mining-Heizung sinnvoll ist und wann nicht. Zielgruppe: PV- und Heizungs-Foren.",
+      "status": "open"
+    },
+    {
+      "id": "q2-2027-tco-asic",
+      "quarter": "2027-Q2",
+      "title_de": "Was kostet ein Antminer wirklich? TCO-Rechnung über drei Jahre",
+      "title_en": "What does an Antminer really cost? A three-year TCO breakdown",
+      "angle": "Anschaffung, Strom, Kühlung, Lautstärke-Maßnahmen, Wartung, Restwert, Difficulty-Trend. Nutze die Miner-Profile aus api.solarminer.app. Verlinke den Ertragsrechner.",
+      "status": "open"
+    },
+    {
+      "id": "q3-2027-halving-vorherschau",
+      "quarter": "2027-Q3",
+      "title_de": "Vor dem Halving 2028: Was auf Überschuss-Miner zukommt",
+      "title_en": "Before the 2028 halving: What surplus miners face next",
+      "angle": "Halving-Zyklus, Historie der Difficulty- und Preisentwicklung, warum Effizienz überlebt, Planungshorizont für Hardware-Käufe 2027. Kein Kurs-Calls, keine Prognosen als Fakten.",
+      "status": "open"
+    }
+  ]
+}

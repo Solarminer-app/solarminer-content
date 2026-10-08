@@ -39,7 +39,8 @@ MDX body (Markdown + JSX). Internal links use absolute site paths, e.g.
 - `main` is deployed automatically (runtime fetch); no build or deploy step is needed.
 - To take a post offline: delete or rename the file on `main` — it disappears within
   ~5 minutes.
-- Never commit secrets, credentials or non-MDX content here.
+- Never commit secrets here. Besides MDX posts, only `topics/quarterly-plan.json`
+  (the research topic backlog maintained by humans and the research agent) lives here.
 
 ## Fallback note
 
