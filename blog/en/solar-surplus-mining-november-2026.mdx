@@ -1,0 +1,41 @@
+---
+title: "Solar Surplus Mining in November 2026: Key Figures and Comparison"
+date: "2026-11-02"
+description: "Mining revenue of about €0.038 per kWh in November 2026, compared against feed-in tariffs in Germany, Austria, and Switzerland."
+---
+
+Bitcoin price, network difficulty, and the resulting mining revenue per kilowatt-hour change continuously. This post documents the figures for November 2026 and sets them against typical tariffs in Germany, Austria, and Switzerland. All numbers come from a snapshot taken on 2 November 2026; this is a data report, not financial advice.
+
+## Network data for November 2026
+
+- Bitcoin price: about **€69,755**
+- Network difficulty: about **148.4 T** — up from the previous month, which pushes revenue per unit of hashrate down
+- Block reward: about **3.142 BTC**
+
+From price, difficulty, and block reward, the reference rate works out to roughly **0.0000004261 BTC per day per TH/s** of submitted hashrate.
+
+## Reference miner and power use
+
+The reference device is the **Antminer S19k Pro** with an efficiency of **32.74 J/TH**, as listed in the SolarMiner API's miner data source. That corresponds to roughly **0.79 kWh per day per TH/s**. Putting revenue and consumption together yields a mining revenue of about **€0.0378 per kWh consumed** under the conditions of this snapshot.
+
+## Comparison with feed-in tariffs
+
+The meaningful comparison is not "mining versus nothing" — it is "mining versus what that kilowatt-hour would otherwise earn":
+
+- **Germany:** feed-in tariff **0.08 €/kWh**, with **12 %** treated as zero feed-in revenue in this view. At 0.0378 €/kWh, mining revenue sits well below the full tariff of 0.08 €/kWh.
+- **Austria:** tariff **0.06 €/kWh**, 0 % zero feed-in. Mining revenue is again below the tariff here.
+- **Switzerland:** tariff **0.06 CHF/kWh**, 0 % zero feed-in. The mining revenue, expressed in euro, is below this figure; note the different currency.
+
+In all three tariffs considered, this snapshot's mining revenue falls below the tariff value — a reason to calculate carefully before diverting surplus power to a miner, and to check whether feeding in remains the better use of the kilowatt-hour in a given case. Difficulty adjustments shift revenue roughly every two weeks, and the price moves continuously.
+
+## Solar power is not free
+
+Even though sunlight costs no fuel, surplus power carries an **opportunity cost**. If you could feed that kilowatt-hour into the grid for a payment, mining it means giving up exactly that payment. If the surplus instead offsets power you would have bought, your own retail tariff is the comparison value. The decisive calculation is mining revenue per kWh versus your effective alternative — not whether the power feels "free".
+
+Purchase price, operation, cooling, and any pool or software fees are not included in the €0.0378 per kWh figure.
+
+## Your system decides
+
+Actual results depend on your location, system size, shading profile, tariff, and the specific miner you run. The figures above are a worked example based on a single reference device, and real-world outcomes can differ in either direction.
+
+Use the [SolarMiner revenue calculator](/en/pv-mining-calculator) to run these figures against your own tariffs and your own miner.

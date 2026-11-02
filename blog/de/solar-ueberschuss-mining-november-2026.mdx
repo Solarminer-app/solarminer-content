@@ -1,0 +1,41 @@
+---
+title: "Solar-Überschuss-Mining im November 2026: Kennzahlen und Vergleich"
+date: "2026-11-02"
+description: "Mining-Ertrag von rund 0,038 € je kWh im November 2026, verglichen mit Einspeisetarifen in Deutschland, Österreich und der Schweiz."
+---
+
+Bitcoin-Preis, Netzwerk-Schwierigkeit und der daraus folgende Mining-Ertrag je Kilowattstunde verändern sich laufend. Dieser Beitrag dokumentiert die Kennzahlen für November 2026 und stellt sie den Tarifen in Deutschland, Österreich und der Schweiz gegenüber. Alle Zahlen stammen aus einer Momentaufnahme vom 2. November 2026; es handelt sich um eine reine Datensammlung, nicht um eine Empfehlung.
+
+## Netzwerk-Daten im November 2026
+
+- Bitcoin-Preis: rund **69.755 €**
+- Netzwerk-Schwierigkeit: rund **148,4 T** — gegenüber dem Vormonat gestiegen, was den Ertrag je eingesetzter Rechenleistung senkt
+- Blockbelohnung: rund **3,142 BTC**
+
+Aus Preis, Schwierigkeit und Blockbelohnung ergibt sich eine Referenz-Bitcoinmenge von etwa **0,0000004261 BTC pro Tag pro TH/s** eingereichter Hashrate.
+
+## Referenz-Miner und Verbrauch
+
+Als Referenzgerät dient der **Antminer S19k Pro** mit einer Effizienz von **32,74 J/TH**, so wie er in der Miner-Datenquelle des SolarMiner-API geführt wird. Das entspricht einem Verbrauch von etwa **0,79 kWh pro Tag pro TH/s**. Setzt man Ertrag und Verbrauch ins Verhältnis, ergibt sich unter den Bedingungen dieser Momentaufnahme ein Mining-Ertrag von rund **0,0378 € pro verbrauchter kWh**.
+
+## Vergleich mit Einspeisevergütung und Tarif
+
+Der relevante Vergleich ist nicht „Mining gegen Nichts“, sondern „Mining gegen das, was die Kilowattstunde sonst einbringen würde“:
+
+- **Deutschland:** Einspeisetarif **0,08 €/kWh**, in dieser Betrachtung gelten **12 %** als Vergütung mit null Einspeiseerlös. Der Mining-Ertrag von 0,0378 €/kWh liegt deutlich unter der vollen Vergütung von 0,08 €/kWh.
+- **Österreich:** Tarif **0,06 €/kWh**, 0 % Null-Einspeisung. Auch hier liegt der Mining-Ertrag unter dem Tarif.
+- **Schweiz:** Tarif **0,06 CHF/kWh**, 0 % Null-Einspeisung. Der Mining-Ertrag in Euro liegt unter diesem Wert; zu beachten ist die andere Währung.
+
+In allen drei betrachteten Tarifen liegt der Mining-Ertrag dieser Momentaufnahme also unter dem Tarifwert — ein Grund, vor der Umleitung von Überschuss in den Miner genau durchzurechnen, ob die Einspeisung im Einzelfall nicht die bessere Verwendung der Kilowattstunde ist. Die Schwierigkeitsanpassung verschiebt den Ertrag dabei etwa alle zwei Wochen, und der Preis bewegt sich kontinuierlich.
+
+## Solarstrom ist nicht kostenlos
+
+Auch wenn die Sonne keinen Brennstoff kostet: Überschussstrom hat eine **Opportunitätskosten-Komponente**. Wer die Kilowattstunde vergütet einspeisen könnte, verzichtet beim Mining auf genau diese Einnahme. Wer mit dem Überschuss stattdessen eigenen Strombezug ersetzt, als Vergleichswert den eigenen Stromtarif ansetzen müsste. Entscheidend ist die Rechnung „Mining-Ertrag je kWh gegen den effektiven Alternativwert“ — nicht die Frage, ob der Strom gefühlt gratis ist.
+
+Anschaffung, Betrieb, Kühlung und mögliche Pool- oder Softwaregebühren sind in den 0,0378 €/kWh nicht enthalten.
+
+## Deine Anlage entscheidet
+
+Der tatsächliche Ertrag hängt von Standort, Anlagengröße, Verschattungsverlauf, Tarif und dem konkret eingesetzten Miner ab. Die hier gezeigten Werte sind ein Rechenbeispiel auf Basis eines einzelnen Referenzgeräts; Abweichungen nach oben wie nach unten sind möglich.
+
+Mit dem [SolarMiner-Ertragsrechner](/de/pv-mining-calculator) kannst du diese Kennzahlen mit deinen eigenen Tarifen und deinem eigenen Miner durchrechnen.
